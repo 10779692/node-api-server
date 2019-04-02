@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. ```
+```
 npm install
 npm run dockerStart
 npm run deploy
