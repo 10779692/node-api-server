@@ -1,0 +1,163 @@
+[
+    {
+        "id": "cju00ih70006q0795nf3b1u3g",
+        "name": "Apple iPhone 5c",
+        "price": 500,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00i06e006l0795ivr75m14",
+        "name": "Apple iPhone 6",
+        "price": 650,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00hk3p006g079527ie60q9",
+        "name": "Apple iPhone 6s",
+        "price": 675,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00gzfy006b0795112im94c",
+        "name": "Apple iPhone 7",
+        "price": 700,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00g7x200660795y90hn9vl",
+        "name": "Apple iPhone 8",
+        "price": 2100,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00ft5500610795ggs7kqr1",
+        "name": "Apple iPhone 8s",
+        "price": 2100,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00fdxq005w0795l8fy7cuj",
+        "name": "Apple iPhone X",
+        "price": 2100,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00exsd005r07954v0l8yd1",
+        "name": "Apple iPhone xR",
+        "price": 2100,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00ecpm005m0795iik5xthx",
+        "name": "Apple MacBook Pro 15in",
+        "price": 2100,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00ddtg005h07953wns0sp0",
+        "name": "Apple MacBook Pro 15in",
+        "price": 2300,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00cycw005c0795dlwq7zvq",
+        "name": "Apple MacBook Pro 15in",
+        "price": 2500,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00ag53005707951cr5hbd4",
+        "name": "Apple iPad Pro",
+        "price": 250,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju009hvc005207956drbhkrm",
+        "name": "Apple iPad Pro",
+        "price": 500,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju008wmf004x07959xundwo5",
+        "name": "Apple iPad Pro",
+        "price": 700,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju008i0k004s0795udsy7rdu",
+        "name": "Apple iPad Pro",
+        "price": 1000,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju007r6k004n07953lqx3rpa",
+        "name": "Apple iMac",
+        "price": 2000,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju0075ev004i0795xmklay24",
+        "name": "Apple iMac",
+        "price": 2500,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju006mmk004d07950pwjjjw7",
+        "name": "Apple Home",
+        "price": 300,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju00620r00480795ly4lho96",
+        "name": "Apple MacBook Air",
+        "price": 800,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju005f5o00430795bac55xrm",
+        "name": "Apple MacBook Air",
+        "price": 700,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju004lmj003y0795anwpb8ui",
+        "name": "Apple iPhone Case for 7",
+        "price": 40,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju002zma003t0795c3q35gnj",
+        "name": "Apple iPhone Case for 8",
+        "price": 40,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    },
+    {
+        "id": "cju001g33003o0795at7hgzab",
+        "name": "Apple iPhone Case for Xs",
+        "price": 50,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "__v": 0
+    }
+]
