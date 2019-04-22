@@ -1,7 +1,8 @@
 version: '3'
 services:
   prisma:
-    image: prismagraphql/prisma:1.27
+    container_name: JaredPrisma
+    image: prismagraphql/prisma:1.30
     restart: always
     ports:
     - "4466:4466"
@@ -17,6 +18,7 @@ services:
             password: prisma
             migrations: true
   postgres:
+    container_name: JaredProject
     image: postgres:10.3
     restart: always
     environment:
