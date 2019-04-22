@@ -44,6 +44,8 @@ type Product {
   name: String
   price: Int
   desc: String
+  location: String
+  employee: String
 }
 
 type ProductConnection {
@@ -56,6 +58,8 @@ input ProductCreateInput {
   name: String
   price: Int
   desc: String
+  location: String
+  employee: String
 }
 
 type ProductEdge {
@@ -72,6 +76,10 @@ enum ProductOrderByInput {
   price_DESC
   desc_ASC
   desc_DESC
+  location_ASC
+  location_DESC
+  employee_ASC
+  employee_DESC
   createdAt_ASC
   createdAt_DESC
   updatedAt_ASC
@@ -83,6 +91,8 @@ type ProductPreviousValues {
   name: String
   price: Int
   desc: String
+  location: String
+  employee: String
 }
 
 type ProductSubscriptionPayload {
@@ -107,12 +117,16 @@ input ProductUpdateInput {
   name: String
   price: Int
   desc: String
+  location: String
+  employee: String
 }
 
 input ProductUpdateManyMutationInput {
   name: String
   price: Int
   desc: String
+  location: String
+  employee: String
 }
 
 input ProductWhereInput {
@@ -166,6 +180,34 @@ input ProductWhereInput {
   desc_not_starts_with: String
   desc_ends_with: String
   desc_not_ends_with: String
+  location: String
+  location_not: String
+  location_in: [String!]
+  location_not_in: [String!]
+  location_lt: String
+  location_lte: String
+  location_gt: String
+  location_gte: String
+  location_contains: String
+  location_not_contains: String
+  location_starts_with: String
+  location_not_starts_with: String
+  location_ends_with: String
+  location_not_ends_with: String
+  employee: String
+  employee_not: String
+  employee_in: [String!]
+  employee_not_in: [String!]
+  employee_lt: String
+  employee_lte: String
+  employee_gt: String
+  employee_gte: String
+  employee_contains: String
+  employee_not_contains: String
+  employee_starts_with: String
+  employee_not_starts_with: String
+  employee_ends_with: String
+  employee_not_ends_with: String
   AND: [ProductWhereInput!]
   OR: [ProductWhereInput!]
   NOT: [ProductWhereInput!]

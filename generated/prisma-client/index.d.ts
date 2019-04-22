@@ -112,6 +112,10 @@ export type ProductOrderByInput =
   | "price_DESC"
   | "desc_ASC"
   | "desc_DESC"
+  | "location_ASC"
+  | "location_DESC"
+  | "employee_ASC"
+  | "employee_DESC"
   | "createdAt_ASC"
   | "createdAt_DESC"
   | "updatedAt_ASC"
@@ -123,12 +127,16 @@ export interface ProductCreateInput {
   name?: String;
   price?: Int;
   desc?: String;
+  location?: String;
+  employee?: String;
 }
 
 export interface ProductUpdateInput {
   name?: String;
   price?: Int;
   desc?: String;
+  location?: String;
+  employee?: String;
 }
 
 export interface ProductWhereInput {
@@ -182,6 +190,34 @@ export interface ProductWhereInput {
   desc_not_starts_with?: String;
   desc_ends_with?: String;
   desc_not_ends_with?: String;
+  location?: String;
+  location_not?: String;
+  location_in?: String[] | String;
+  location_not_in?: String[] | String;
+  location_lt?: String;
+  location_lte?: String;
+  location_gt?: String;
+  location_gte?: String;
+  location_contains?: String;
+  location_not_contains?: String;
+  location_starts_with?: String;
+  location_not_starts_with?: String;
+  location_ends_with?: String;
+  location_not_ends_with?: String;
+  employee?: String;
+  employee_not?: String;
+  employee_in?: String[] | String;
+  employee_not_in?: String[] | String;
+  employee_lt?: String;
+  employee_lte?: String;
+  employee_gt?: String;
+  employee_gte?: String;
+  employee_contains?: String;
+  employee_not_contains?: String;
+  employee_starts_with?: String;
+  employee_not_starts_with?: String;
+  employee_ends_with?: String;
+  employee_not_ends_with?: String;
   AND?: ProductWhereInput[] | ProductWhereInput;
   OR?: ProductWhereInput[] | ProductWhereInput;
   NOT?: ProductWhereInput[] | ProductWhereInput;
@@ -191,6 +227,8 @@ export interface ProductUpdateManyMutationInput {
   name?: String;
   price?: Int;
   desc?: String;
+  location?: String;
+  employee?: String;
 }
 
 export interface ProductSubscriptionWhereInput {
@@ -249,6 +287,8 @@ export interface ProductPreviousValues {
   name?: String;
   price?: Int;
   desc?: String;
+  location?: String;
+  employee?: String;
 }
 
 export interface ProductPreviousValuesPromise
@@ -258,6 +298,8 @@ export interface ProductPreviousValuesPromise
   name: () => Promise<String>;
   price: () => Promise<Int>;
   desc: () => Promise<String>;
+  location: () => Promise<String>;
+  employee: () => Promise<String>;
 }
 
 export interface ProductPreviousValuesSubscription
@@ -267,6 +309,8 @@ export interface ProductPreviousValuesSubscription
   name: () => Promise<AsyncIterator<String>>;
   price: () => Promise<AsyncIterator<Int>>;
   desc: () => Promise<AsyncIterator<String>>;
+  location: () => Promise<AsyncIterator<String>>;
+  employee: () => Promise<AsyncIterator<String>>;
 }
 
 export interface ProductEdge {
@@ -316,6 +360,8 @@ export interface Product {
   name?: String;
   price?: Int;
   desc?: String;
+  location?: String;
+  employee?: String;
 }
 
 export interface ProductPromise extends Promise<Product>, Fragmentable {
@@ -323,6 +369,8 @@ export interface ProductPromise extends Promise<Product>, Fragmentable {
   name: () => Promise<String>;
   price: () => Promise<Int>;
   desc: () => Promise<String>;
+  location: () => Promise<String>;
+  employee: () => Promise<String>;
 }
 
 export interface ProductSubscription
@@ -332,6 +380,8 @@ export interface ProductSubscription
   name: () => Promise<AsyncIterator<String>>;
   price: () => Promise<AsyncIterator<Int>>;
   desc: () => Promise<AsyncIterator<String>>;
+  location: () => Promise<AsyncIterator<String>>;
+  employee: () => Promise<AsyncIterator<String>>;
 }
 
 export interface ProductConnection {

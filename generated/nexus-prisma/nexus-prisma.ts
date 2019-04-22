@@ -141,12 +141,16 @@ type ProductObject =
   | { name: 'name', args?: [] | false, alias?: string  } 
   | { name: 'price', args?: [] | false, alias?: string  } 
   | { name: 'desc', args?: [] | false, alias?: string  } 
+  | { name: 'location', args?: [] | false, alias?: string  } 
+  | { name: 'employee', args?: [] | false, alias?: string  } 
 
 type ProductFields =
   | 'id'
   | 'name'
   | 'price'
   | 'desc'
+  | 'location'
+  | 'employee'
 
 
 
@@ -178,6 +182,22 @@ export interface ProductFieldDetails {
     resolve: undefined
   }
   desc: {
+    type: 'String'
+    args: {}
+    description: string
+    list: undefined
+    nullable: true
+    resolve: undefined
+  }
+  location: {
+    type: 'String'
+    args: {}
+    description: string
+    list: undefined
+    nullable: true
+    resolve: undefined
+  }
+  employee: {
     type: 'String'
     args: {}
     description: string
@@ -622,12 +642,16 @@ type ProductPreviousValuesObject =
   | { name: 'name', args?: [] | false, alias?: string  } 
   | { name: 'price', args?: [] | false, alias?: string  } 
   | { name: 'desc', args?: [] | false, alias?: string  } 
+  | { name: 'location', args?: [] | false, alias?: string  } 
+  | { name: 'employee', args?: [] | false, alias?: string  } 
 
 type ProductPreviousValuesFields =
   | 'id'
   | 'name'
   | 'price'
   | 'desc'
+  | 'location'
+  | 'employee'
 
 
 
@@ -659,6 +683,22 @@ export interface ProductPreviousValuesFieldDetails {
     resolve: undefined
   }
   desc: {
+    type: 'String'
+    args: {}
+    description: string
+    list: undefined
+    nullable: true
+    resolve: undefined
+  }
+  location: {
+    type: 'String'
+    args: {}
+    description: string
+    list: undefined
+    nullable: true
+    resolve: undefined
+  }
+  employee: {
     type: 'String'
     args: {}
     description: string
@@ -728,6 +768,34 @@ export interface ProductWhereInput {
   desc_not_starts_with?: string | null
   desc_ends_with?: string | null
   desc_not_ends_with?: string | null
+  location?: string | null
+  location_not?: string | null
+  location_in?: string[]
+  location_not_in?: string[]
+  location_lt?: string | null
+  location_lte?: string | null
+  location_gt?: string | null
+  location_gte?: string | null
+  location_contains?: string | null
+  location_not_contains?: string | null
+  location_starts_with?: string | null
+  location_not_starts_with?: string | null
+  location_ends_with?: string | null
+  location_not_ends_with?: string | null
+  employee?: string | null
+  employee_not?: string | null
+  employee_in?: string[]
+  employee_not_in?: string[]
+  employee_lt?: string | null
+  employee_lte?: string | null
+  employee_gt?: string | null
+  employee_gte?: string | null
+  employee_contains?: string | null
+  employee_not_contains?: string | null
+  employee_starts_with?: string | null
+  employee_not_starts_with?: string | null
+  employee_ends_with?: string | null
+  employee_not_ends_with?: string | null
   AND?: ProductWhereInput[]
   OR?: ProductWhereInput[]
   NOT?: ProductWhereInput[]
@@ -784,6 +852,34 @@ export type ProductWhereInputInputObject =
   | { name: 'desc_not_starts_with', alias?: string  } 
   | { name: 'desc_ends_with', alias?: string  } 
   | { name: 'desc_not_ends_with', alias?: string  } 
+  | { name: 'location', alias?: string  } 
+  | { name: 'location_not', alias?: string  } 
+  | { name: 'location_in', alias?: string  } 
+  | { name: 'location_not_in', alias?: string  } 
+  | { name: 'location_lt', alias?: string  } 
+  | { name: 'location_lte', alias?: string  } 
+  | { name: 'location_gt', alias?: string  } 
+  | { name: 'location_gte', alias?: string  } 
+  | { name: 'location_contains', alias?: string  } 
+  | { name: 'location_not_contains', alias?: string  } 
+  | { name: 'location_starts_with', alias?: string  } 
+  | { name: 'location_not_starts_with', alias?: string  } 
+  | { name: 'location_ends_with', alias?: string  } 
+  | { name: 'location_not_ends_with', alias?: string  } 
+  | { name: 'employee', alias?: string  } 
+  | { name: 'employee_not', alias?: string  } 
+  | { name: 'employee_in', alias?: string  } 
+  | { name: 'employee_not_in', alias?: string  } 
+  | { name: 'employee_lt', alias?: string  } 
+  | { name: 'employee_lte', alias?: string  } 
+  | { name: 'employee_gt', alias?: string  } 
+  | { name: 'employee_gte', alias?: string  } 
+  | { name: 'employee_contains', alias?: string  } 
+  | { name: 'employee_not_contains', alias?: string  } 
+  | { name: 'employee_starts_with', alias?: string  } 
+  | { name: 'employee_not_starts_with', alias?: string  } 
+  | { name: 'employee_ends_with', alias?: string  } 
+  | { name: 'employee_not_ends_with', alias?: string  } 
   | { name: 'AND', alias?: string  } 
   | { name: 'OR', alias?: string  } 
   | { name: 'NOT', alias?: string  } 
@@ -792,34 +888,46 @@ export interface ProductCreateInput {
   name?: string | null
   price?: number | null
   desc?: string | null
+  location?: string | null
+  employee?: string | null
 }
 export type ProductCreateInputInputObject =
   | Extract<keyof ProductCreateInput, string>
   | { name: 'name', alias?: string  } 
   | { name: 'price', alias?: string  } 
   | { name: 'desc', alias?: string  } 
+  | { name: 'location', alias?: string  } 
+  | { name: 'employee', alias?: string  } 
   
 export interface ProductUpdateInput {
   name?: string | null
   price?: number | null
   desc?: string | null
+  location?: string | null
+  employee?: string | null
 }
 export type ProductUpdateInputInputObject =
   | Extract<keyof ProductUpdateInput, string>
   | { name: 'name', alias?: string  } 
   | { name: 'price', alias?: string  } 
   | { name: 'desc', alias?: string  } 
+  | { name: 'location', alias?: string  } 
+  | { name: 'employee', alias?: string  } 
   
 export interface ProductUpdateManyMutationInput {
   name?: string | null
   price?: number | null
   desc?: string | null
+  location?: string | null
+  employee?: string | null
 }
 export type ProductUpdateManyMutationInputInputObject =
   | Extract<keyof ProductUpdateManyMutationInput, string>
   | { name: 'name', alias?: string  } 
   | { name: 'price', alias?: string  } 
   | { name: 'desc', alias?: string  } 
+  | { name: 'location', alias?: string  } 
+  | { name: 'employee', alias?: string  } 
   
 export interface ProductSubscriptionWhereInput {
   mutation_in?: prisma.MutationType[]
@@ -852,6 +960,10 @@ export type ProductOrderByInputValues =
   | 'price_DESC'
   | 'desc_ASC'
   | 'desc_DESC'
+  | 'location_ASC'
+  | 'location_DESC'
+  | 'employee_ASC'
+  | 'employee_DESC'
   | 'createdAt_ASC'
   | 'createdAt_DESC'
   | 'updatedAt_ASC'

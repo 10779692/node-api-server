@@ -30,7 +30,9 @@ type PageInfo {
 
 type Product {
   desc: String
+  employee: String
   id: ID!
+  location: String
   name: String
   price: Int
 }
@@ -43,6 +45,8 @@ type ProductConnection {
 
 input ProductCreateInput {
   desc: String
+  employee: String
+  location: String
   name: String
   price: Int
 }
@@ -57,8 +61,12 @@ enum ProductOrderByInput {
   createdAt_DESC
   desc_ASC
   desc_DESC
+  employee_ASC
+  employee_DESC
   id_ASC
   id_DESC
+  location_ASC
+  location_DESC
   name_ASC
   name_DESC
   price_ASC
@@ -69,12 +77,16 @@ enum ProductOrderByInput {
 
 input ProductUpdateInput {
   desc: String
+  employee: String
+  location: String
   name: String
   price: Int
 }
 
 input ProductUpdateManyMutationInput {
   desc: String
+  employee: String
+  location: String
   name: String
   price: Int
 }
@@ -95,6 +107,20 @@ input ProductWhereInput {
   desc_not_in: [String!]
   desc_not_starts_with: String
   desc_starts_with: String
+  employee: String
+  employee_contains: String
+  employee_ends_with: String
+  employee_gt: String
+  employee_gte: String
+  employee_in: [String!]
+  employee_lt: String
+  employee_lte: String
+  employee_not: String
+  employee_not_contains: String
+  employee_not_ends_with: String
+  employee_not_in: [String!]
+  employee_not_starts_with: String
+  employee_starts_with: String
   id: ID
   id_contains: ID
   id_ends_with: ID
@@ -109,6 +135,20 @@ input ProductWhereInput {
   id_not_in: [ID!]
   id_not_starts_with: ID
   id_starts_with: ID
+  location: String
+  location_contains: String
+  location_ends_with: String
+  location_gt: String
+  location_gte: String
+  location_in: [String!]
+  location_lt: String
+  location_lte: String
+  location_not: String
+  location_not_contains: String
+  location_not_ends_with: String
+  location_not_in: [String!]
+  location_not_starts_with: String
+  location_starts_with: String
   name: String
   name_contains: String
   name_ends_with: String

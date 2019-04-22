@@ -13,16 +13,22 @@ declare global {
 export interface NexusGenInputs {
   ProductCreateInput: { // input type
     desc?: string | null; // String
+    employee?: string | null; // String
+    location?: string | null; // String
     name?: string | null; // String
     price?: number | null; // Int
   }
   ProductUpdateInput: { // input type
     desc?: string | null; // String
+    employee?: string | null; // String
+    location?: string | null; // String
     name?: string | null; // String
     price?: number | null; // Int
   }
   ProductUpdateManyMutationInput: { // input type
     desc?: string | null; // String
+    employee?: string | null; // String
+    location?: string | null; // String
     name?: string | null; // String
     price?: number | null; // Int
   }
@@ -42,6 +48,20 @@ export interface NexusGenInputs {
     desc_not_in?: string[] | null; // [String!]
     desc_not_starts_with?: string | null; // String
     desc_starts_with?: string | null; // String
+    employee?: string | null; // String
+    employee_contains?: string | null; // String
+    employee_ends_with?: string | null; // String
+    employee_gt?: string | null; // String
+    employee_gte?: string | null; // String
+    employee_in?: string[] | null; // [String!]
+    employee_lt?: string | null; // String
+    employee_lte?: string | null; // String
+    employee_not?: string | null; // String
+    employee_not_contains?: string | null; // String
+    employee_not_ends_with?: string | null; // String
+    employee_not_in?: string[] | null; // [String!]
+    employee_not_starts_with?: string | null; // String
+    employee_starts_with?: string | null; // String
     id?: string | null; // ID
     id_contains?: string | null; // ID
     id_ends_with?: string | null; // ID
@@ -56,6 +76,20 @@ export interface NexusGenInputs {
     id_not_in?: string[] | null; // [ID!]
     id_not_starts_with?: string | null; // ID
     id_starts_with?: string | null; // ID
+    location?: string | null; // String
+    location_contains?: string | null; // String
+    location_ends_with?: string | null; // String
+    location_gt?: string | null; // String
+    location_gte?: string | null; // String
+    location_in?: string[] | null; // [String!]
+    location_lt?: string | null; // String
+    location_lte?: string | null; // String
+    location_not?: string | null; // String
+    location_not_contains?: string | null; // String
+    location_not_ends_with?: string | null; // String
+    location_not_in?: string[] | null; // [String!]
+    location_not_starts_with?: string | null; // String
+    location_starts_with?: string | null; // String
     name?: string | null; // String
     name_contains?: string | null; // String
     name_ends_with?: string | null; // String
@@ -87,7 +121,7 @@ export interface NexusGenInputs {
 }
 
 export interface NexusGenEnums {
-  ProductOrderByInput: "createdAt_ASC" | "createdAt_DESC" | "desc_ASC" | "desc_DESC" | "id_ASC" | "id_DESC" | "name_ASC" | "name_DESC" | "price_ASC" | "price_DESC" | "updatedAt_ASC" | "updatedAt_DESC"
+  ProductOrderByInput: "createdAt_ASC" | "createdAt_DESC" | "desc_ASC" | "desc_DESC" | "employee_ASC" | "employee_DESC" | "id_ASC" | "id_DESC" | "location_ASC" | "location_DESC" | "name_ASC" | "name_DESC" | "price_ASC" | "price_DESC" | "updatedAt_ASC" | "updatedAt_DESC"
 }
 
 export interface NexusGenRootTypes {
@@ -106,7 +140,9 @@ export interface NexusGenRootTypes {
   }
   Product: { // root type
     desc?: string | null; // String
+    employee?: string | null; // String
     id: string; // ID!
+    location?: string | null; // String
     name?: string | null; // String
     price?: number | null; // Int
   }
@@ -159,7 +195,9 @@ export interface NexusGenFieldTypes {
   }
   Product: { // field return type
     desc: string | null; // String
+    employee: string | null; // String
     id: string; // ID!
+    location: string | null; // String
     name: string | null; // String
     price: number | null; // Int
   }

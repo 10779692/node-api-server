@@ -4,6 +4,8 @@
         "name": "Apple iPhone 5c",
         "price": 500,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Sacramento, California",
+        "employee": "John Doe",
         "__v": 0
     },
     {
@@ -11,6 +13,8 @@
         "name": "Apple iPhone 6",
         "price": 650,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Richmond, California",
+        "employee": "Sally Perkins",
         "__v": 0
     },
     {
@@ -18,6 +22,8 @@
         "name": "Apple iPhone 6s",
         "price": 675,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Oakland, California",
+        "employee": "Ronald McDonald",
         "__v": 0
     },
     {
@@ -25,6 +31,8 @@
         "name": "Apple iPhone 7",
         "price": 700,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Los Angeles, California",
+        "employee": "Kim Cruz",
         "__v": 0
     },
     {
@@ -32,6 +40,8 @@
         "name": "Apple iPhone 8",
         "price": 2100,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Lafayette, California",
+        "employee": "John Drath",
         "__v": 0
     },
     {
@@ -39,6 +49,8 @@
         "name": "Apple iPhone 8s",
         "price": 2100,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Boulder, Colorado",
+        "employee": "Ann Perkins",
         "__v": 0
     },
     {
@@ -46,6 +58,8 @@
         "name": "Apple iPhone X",
         "price": 2100,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Missoula, Montana",
+        "employee": "Steve Ariz",
         "__v": 0
     },
     {
@@ -53,6 +67,8 @@
         "name": "Apple iPhone xR",
         "price": 2100,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Orlando, Florida",
+        "employee": "Alisha Lee",
         "__v": 0
     },
     {
@@ -60,6 +76,8 @@
         "name": "Apple MacBook Pro 15in",
         "price": 2100,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "New England, Maine",
+        "employee": "Tom Brady",
         "__v": 0
     },
     {
@@ -67,6 +85,8 @@
         "name": "Apple MacBook Pro 15in",
         "price": 2300,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Lousiville, Kentucky",
+        "employee": "Jared Reed",
         "__v": 0
     },
     {
@@ -74,6 +94,8 @@
         "name": "Apple MacBook Pro 15in",
         "price": 2500,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Portland, Oregon",
+        "employee": "John Hipster",
         "__v": 0
     },
     {
@@ -81,6 +103,8 @@
         "name": "Apple iPad Pro",
         "price": 250,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Seattle, Washington",
+        "employee": "Kelly Fruz",
         "__v": 0
     },
     {
@@ -88,6 +112,8 @@
         "name": "Apple iPad Pro",
         "price": 500,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Austin, Texas",
+        "employee": "Angelina Capella",
         "__v": 0
     },
     {
@@ -95,6 +121,8 @@
         "name": "Apple iPad Pro",
         "price": 700,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Dallas, Texas",
+        "employee": "Lolimar Nieves",
         "__v": 0
     },
     {
@@ -102,6 +130,8 @@
         "name": "Apple iPad Pro",
         "price": 1000,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "San Francisco, California",
+        "employee": "Jim Hutton",
         "__v": 0
     },
     {
@@ -109,6 +139,8 @@
         "name": "Apple iMac",
         "price": 2000,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Ancorage, Alaska",
+        "employee": "Amelia Moras",
         "__v": 0
     },
     {
@@ -116,6 +148,8 @@
         "name": "Apple iMac",
         "price": 2500,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Draper, Utah",
+        "employee": "Tommy Wong",
         "__v": 0
     },
     {
@@ -123,6 +157,8 @@
         "name": "Apple Home",
         "price": 300,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Orem, Utah",
+        "employee": "Matthew Lopez",
         "__v": 0
     },
     {
@@ -130,6 +166,8 @@
         "name": "Apple MacBook Air",
         "price": 800,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Pinole, California",
+        "employee": "Brian Singer",
         "__v": 0
     },
     {
@@ -137,6 +175,8 @@
         "name": "Apple MacBook Air",
         "price": 700,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Logan, Utah",
+        "employee": "Peter Lopez",
         "__v": 0
     },
     {
@@ -144,6 +184,8 @@
         "name": "Apple iPhone Case for 7",
         "price": 40,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Taylorsville, Utah",
+        "employee": "Kendal Jenner",
         "__v": 0
     },
     {
@@ -151,6 +193,8 @@
         "name": "Apple iPhone Case for 8",
         "price": 40,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Price, Utah",
+        "employee": "Smith Jones",
         "__v": 0
     },
     {
@@ -158,6 +202,8 @@
         "name": "Apple iPhone Case for Xs",
         "price": 50,
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Dublin, California",
+        "employee": "Joe Smoe",
         "__v": 0
     }
 ]
