@@ -205,5 +205,24 @@
         "location": "Dublin, California",
         "employee": "Joe Smoe",
         "__v": 0
+    },
+    {
+        "id": "cjurxwqhj00qj0773lr9nu64k",
+        "name": "Apple Home Pod",
+        "price": 400,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Carmichael, California",
+        "employee": "Rhonda Reed",
+        "__v": 0
+    },
+    {
+        "id": "cjurxxlz300qp0773bw4h5jm8",
+        "name": "Apple iMac 55in",
+        "price": 5000,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Provo, Utah",
+        "employee": "Jones Doug",
+        "__v": 0
     }
+    
 ]
