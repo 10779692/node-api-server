@@ -31,6 +31,8 @@ query {
 	  id
     name
     price
+    location
+    employee
   }
 }
 ```
@@ -42,6 +44,8 @@ query {
     name
     price
     desc
+    location
+    employee
   }
 }
 ```
@@ -55,12 +59,16 @@ mutation {
       price: 00
       desc: "__INSERT DESCRIPTION HERE__"
       name: "__INSERT NAME HERE__"
+      location: "__INSERT LOCATION HERE__"
+      employee: "__INSERT EMPLOYEE HERE__"
     }
   ) {
     id
     name
     price
     desc
+    location
+    employee
   }
 }
 ```
@@ -69,7 +77,10 @@ mutation {
 mutation {
   updateProduct(
     data: {
-      price: 00
+      name
+      price
+      location
+      employee
     }
     where: {
       id: "__INSERT ID HERE__"
@@ -78,6 +89,8 @@ mutation {
     id
     name
     price
+    location
+    employee
   }
 }
 ```
@@ -90,6 +103,8 @@ mutation {
     name
     price
     desc
+    location
+    employee
   }
 }
 ```# GRAPHQL-NODE-API
