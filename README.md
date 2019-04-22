@@ -5,6 +5,7 @@
 ```
 npm install
 npm run dockerStart
+docker-compose up -d
 npm run deploy
 docker-compose up -d
 npm run start
