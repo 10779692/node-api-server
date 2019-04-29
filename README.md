@@ -1,5 +1,7 @@
 # GraphQL API Node Project - Jared Reed
 
+On the update pages, you must fill out the form without leaving any field blank, and scroll to the product you wish to update and click Update Product.
+
 ## Instructions
 
 ```
